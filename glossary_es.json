@@ -1,0 +1,4088 @@
+[
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582292;Abaca;abacá;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582293;All-over;\"\"\"all-over\"\"\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582294;Armature;aros;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582295;Attache-sucette;sujetachupetes;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582297;Badge;parche;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582298;Barboteuse;ranita;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582299;Bermuda;bermudas;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582300;Biais;bies;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582301;Bloomer;pololo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582302;Body;Body;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582303;Borsalino;borsalino;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582304;Bouclette;rizo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582305;\"Bourrelet de renfort\";\"refuerzo trasero\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582306;\"Box Tamboor\";\"Box Tamboor\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582308;\"cale porte\";sujetapuertas;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582309;Chambray;Chambray;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582310;Chausson;pantufla;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582311;Chenille;\"punto chenilla\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582312;\"Ciel de lit\";dosel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582313;\"Clous / studs\";tachuelas;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582314;\"CMD Modal\";modal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582315;\"Col chemise\";\"cuello camisero\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582316;\"Col Claudine\";\"cuello babero\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582317;\"Collerette (sucette)\";escudo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582318;\"Combinaison o Combishort\";mono;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582319;Combi-pilote;buzo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582320;Corsaire;\"pantalón pirata\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582321;\"Coton bio\";\"algodón orgánico\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582322;\"Coton en conversion\";\"algodón en conversión\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582323;Coupe-vent;\"chaqueta cortavientos\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582324;Crinkle;Crinkle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582325;Cropped;crop;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582326;Deniers;denier;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582327;Dentelle;encaje;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582328;\"Dors bien\";pelele;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582329;\"Dos uni\";\"espalda lisa\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582330;Doudou;doudou;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582331;Doudoune;plumífero;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582332;\"Effet cuir\";\"efecto piel\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582333;\"Effet used\";\"efecto desgastado\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582334;Effigie;efigie;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582335;Embout;punta;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582336;Emmanchures;sisa;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582337;\"En jersey\";\"de punto\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582338;Encolure;cuello;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582339;EVA;EVA;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582340;\"Fourche basse\";\"entrepierna baja\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582341;Frange;flecos;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582342;Fronce;frunce;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582343;\"Gaze de coton\";\"gasa de algodón\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582344;Gigoteuse;\"saquito de dormir\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582345;\"Habillage pluie\";\"burbuja de lluvia\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582347;\"Jambe de force\";\"pata de apoyo\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582348;Jean;jeans;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582349;Jegging;jeggings;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582350;\"Jersey slub\";\"punto flameado\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582351;Jogger;\"pantalón de chándal\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582352;Jogging;jogging;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582353;Lange;muselina;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582354;\"Languette au dos\";\"tirador trasero\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582355;Legging;leggings;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582356;\"Light rubber\";\"efecto 3D\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582357;Lyocel;lyocell;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582358;Pointelle;\"motivos calados\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582359;\"Maillot de corps\";\"camiseta interior\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582360;\"Manche courte\";\"manga corta\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582361;Mesh;Mesh;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582362;Milano;\"punto milano\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582363;Mixte;unisex;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582364;Modeuse;fashionista;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582365;Molleton;felpa;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582366;Nacelle;capazo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582367;\"Nid d'ange\";\"saquito con capucha\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582368;Nomade;portátil;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582369;Nylon;Nailon;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582370;Ottoman;\"punto otomán\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582371;Pantacourt;\"pantalón pirata\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582372;Passepoil;ribete;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582373;Peignoir;albornoz;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582374;Perfecto;\"cazadora estilo biker\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582375;\"Pied de poule\";\"pata de gallo\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582376;Plumetis;plumeti;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582377;\"Poche ticket\";\"bolsillo relojero\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582378;\"Point mousse\";\"punto musgo\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582379;Raglan;raglán;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582380;Ramie;ramio;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582381;Rayonne;rayón;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582382;Rehausseur;elevador;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582383;\"\"\"Robe salopette\"\"\";pichi;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582384;Sherpa;sherpa;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582385;Short;short;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582386;Strass;Strass;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582387;Streetwear;Streetwear;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582388;Superposition;superpuesto;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582389;Surpyjama;sobrepijama;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582390;Sweat;sudadera;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582391;\"Taille haute\";\"tiro alto\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582392;Teddy;Teddy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582393;Toise;infantómetro;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582394;\"Tour de lit\";\"protector de cuna\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582395;Trench;trench;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582396;\"Tricot poil\";\"punto peludo\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582397;Tritan;tritán;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582398;\"Trompe l'oeil\";Trampantojo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582399;Trotteur;andador;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582400;Turbulette;\"saquito de dormir\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582401;Twill;Twill;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582402;Veilleuse;\"lámpara quitamiedos\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582403;Velours;terciopelo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582404;Ajouré;\"Punto calado\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582405;\"Arche d'éveil\";\"arco actividades\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582406;Bord-côte;acanalado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582407;Boutonnière;\"cierre botonadura frontal\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582408;Brassière;\"chaqueta de punto\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582409;Brossé;cepillado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582410;Chiné;jaspeado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582411;\"Col châle\";\"cuello chal\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582412;\"Col Cheminée\";\"cuello chimenea\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582413;\"Col roulé\";\"cuello vuelto\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582414;Côtelé;\"de punto de canalé\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582415;Crêpe;crepé;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582416;Débardeur;\"camiseta sin mangas\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582417;\"Découpe taille à passants\";\"cintura con presillas\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582418;Délavé;desgastado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582419;Dévoré;devorado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582420;Écaille;carey;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582421;\"Effet gaufré\";\"efecto gofrado\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582422;Élastodienne;elastodieno;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582423;Émoji;emoji;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582424;\"Épaules ajourées\";\"hombros descubiertos\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582425;Éponge;toalla;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582426;Étrier;abrazadera;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582427;Evasé;acampanado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582428;\"Finitions festonnées\";\"Acabado en ondas\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582429;\"Forme boîte\";\"corte boxy\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582430;Galón;cinta;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582431;Liseré;ribete;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582432;\"Matelas à langer\";\"colchón cambiador\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582433;Moucheté;moteado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582434;Péplum;peplum;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582435;Piqué;\"punto piqué\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582436;\"Plan incliné\";\"cuña antirreflujo\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582437;\"Poche à rabat\";\"bolsillo tipo plastrón con solapa\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582438;\"Poche passepoilée\";\"bolsillo de ribete\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582439;\"Poches plaquées au dos\";\"bolsillos tipo plastrón\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582440;\"Poignets boutonnés\";\"puños abotonados\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582441;Polyuréthane;poliuretano;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582442;\"Semelle compensée\";\"suela con volumen\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582443;Smocké;\"punto smock\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582444;Surpiqûres;pespunte;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582445;Tétra;\"gasa de algodón\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582452;orchestra;orchestra;;;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "582453;Orchestra;Orchestra;;;1"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "600738;\"New orch\";\"New orch\";;;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "600739;\"NEW ORCH\";\"NEW ORCH\";;;1"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "600740;Orquestra;Orchestra;;;1"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "600741;orquestra;Orchestra;;;1"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "601225;Club*;Club*;;;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "601235;\"QUIZÁS PUEDA GUSTARTE\";\"QUIZÁS PUEDA GUSTARTE\";;;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "625179;robe;vestido;fr;es;1"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "625181;manteau;abrigo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "632255;moufles;manoplas;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "632262;Dors-bien;pelele;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "632263;\"Pieds fermés\";\"Pies integrados\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "632284;broderie;bordado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "632288;Oversize;Oversize;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "632296;Bodies;Bodies;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "632412;Gomme;goma;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "634368;interlock;interlock;;;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "648073;corsaires;piratas;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651509;About;About;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651510;Academy;Academy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651511;Access;Access;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651512;Ace;Ace;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651513;Activated;Activated;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651514;Activity;Activity;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651515;Addict;Addict;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651516;Adjust;Adjust;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651517;Adjustment;Adjustment;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651518;Adriatic;Adriatic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651519;Advance;Advance;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651520;Advanced;Advanced;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651521;Advantage;Advantage;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651522;Aeromoov;Aeromoov;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651523;Aerosleep;Aerosleep;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651524;Affix;Affix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651525;Against;Against;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651526;Agree;Agree;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651527;Aim;Aim;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651528;Airflex;Airflex;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651529;Almond;Almond;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651530;Always;Always;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651531;Angled;Angled;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651532;Anthracite;Anthracite;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651533;Aqua;Aqua;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651534;Around;Around;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651535;Attaching;Attaching;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651536;Attack;Attack;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651537;Authentic;Authentic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651538;Automatic;Automatic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651539;Autumn;Autumn;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651540;Avent;Avent;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651541;Awards;Awards;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651542;Away;Away;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651543;Awesome;Awesome;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651544;Baby;Baby;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651545;Babycook;Babycook;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651546;Babyphone;Babyphone;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651547;Babysoft;Babysoft;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651548;Backpack;Backpack;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651549;Bag;Bag;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651550;Bags;Bags;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651551;Balls;Balls;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651552;Balsam;Balsam;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651553;Balters;Balters;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651554;Band;Band;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651555;Based;Based;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651556;Basic;Basic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651557;Beatbo;Beatbo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651558;Beautiful;Beautiful;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651559;Beauty;Beauty;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651560;Bed;Bed;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651561;Bee;Bee;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651562;Before;Before;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651563;Beginning;Beginning;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651564;Behind;Behind;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651565;Being;Being;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651566;Belt;Belt;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651567;Belted;Belted;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651568;Bento;Bento;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651569;Berry;Berry;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651570;Best;Best;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651571;Beyond;Beyond;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651572;Bike;Bike;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651573;Biker;Biker;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651574;Binky;Binky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651575;Biomaster;Biomaster;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651576;Bird;Bird;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651577;Birds;Birds;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651578;Birthday;Birthday;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651579;Black;Black;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651580;Blast;Blast;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651581;Blazer;Blazer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651582;Bleach;Bleach;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651583;Blender;Blender;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651584;Blephacare;Blephacare;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651585;Blind;Blind;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651586;Blinks;Blinks;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651587;Blister;Blister;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651588;Block;Block;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651589;Blocks;Blocks;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651590;Blood;Blood;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651591;Blue;Blue;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651592;Blueforest;Blueforest;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651593;Bluetooth;Bluetooth;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651594;Bluey;Bluey;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651595;Boho;Boho;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651596;Boos;Boos;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651597;Booster;Booster;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651598;Born;Born;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651599;Botanical;Botanical;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651600;Bottle;Bottle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651601;Bouncer;Bouncer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651602;Bowls;Bowls;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651603;Boy;Boy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651604;Breast;Breast;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651605;Breastshells;Breastshells;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651606;Brick;Brick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651608;Bright;Bright;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651609;Brings;Brings;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651610;British;British;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651611;Bros;Bros;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651612;Brown;Brown;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651613;Brushy;Brushy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651614;Bubblegum;Bubblegum;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651615;Bubbles;Bubbles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651616;Bucket;Bucket;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651617;Buddies;Buddies;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651618;Buddy;Buddy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651619;Build;Build;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651620;Builders;Builders;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651621;Bullez;Bullez;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651622;Bumper;Bumper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651623;Bundles;Bundles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651624;Bunny;Bunny;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651625;Butterfly;Butterfly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651626;Caddy;Caddy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651627;Calls;Calls;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651628;Calm;Calm;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651629;Cameron;Cameron;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651630;Campus;Campus;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651631;Candy;Candy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651632;Canvas;Canvas;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651633;Cap;Cap;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651634;Caps;Caps;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651635;Captain;Captain;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651636;Care;Care;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651637;Carrot;Carrot;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651638;Casababy;Casababy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651639;Cashmere;Cashmere;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651640;Cast;Cast;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651641;Castle;Castle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651642;Cat;Cat;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651643;Cell;Cell;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651644;Cement;Cement;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651645;Ceramides;Ceramides;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651646;Certified;Certified;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651647;Chair;Chair;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651648;Charms;Charms;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651649;Chase;Chase;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651650;Chatty;Chatty;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651651;Check;Check;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651652;Cheer;Cheer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651653;Chew;Chew;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651654;Childhome;Childhome;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651655;Children;Children;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651656;Childwood;Childwood;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651657;Chip;Chip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651658;Choice;Choice;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651659;Choiceplus;Choiceplus;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651660;Chromium;Chromium;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651661;Chunky;Chunky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651662;Cinder;Cinder;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651663;Citygrey;Citygrey;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651664;Classic;Classic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651665;Clean;Clean;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651666;Cleanoo;Cleanoo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651667;Cleanser;Cleanser;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651668;Clemmy;Clemmy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651669;Clever;Clever;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651670;Click;Click;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651671;Clickfit;Clickfit;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651672;Climaflow;Climaflow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651673;Climb;Climb;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651674;Clin;Clin;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651675;Clinic;Clinic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651676;Close;Close;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651677;Closer;Closer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651678;Closet;Closet;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651679;Closing;Closing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651680;Cloud;Cloud;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651681;Clouds;Clouds;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651682;Cocoon;Cocoon;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651683;Coding;Coding;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651684;Colder;Colder;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651685;Colic;Colic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651686;Comb;Comb;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651687;Come;Come;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651688;Comfi;Comfi;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651689;Comfort;Comfort;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651690;Comfy;Comfy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651691;Company;Company;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651692;Compound;Compound;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651693;Conditioner;Conditioner;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651694;Connect;Connect;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651695;Connext;Connext;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651696;Containers;Containers;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651697;Containment;Containment;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651698;Contrast;Contrast;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651699;Control;Control;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651700;Cooble;Cooble;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651701;Coordinated;Coordinated;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651702;Coral;Coral;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651703;Cording;Cording;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651704;Coron;Coron;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651705;Corpus;Corpus;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651706;Cosmopoly;Cosmopoly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651707;Cosmos;Cosmos;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651708;Cosy;Cosy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651709;Cot;Cot;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651710;Cottage;Cottage;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651711;Country;Country;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651712;Courtray;Courtray;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651713;Courtyard;Courtyard;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651714;Cover;Cover;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651715;Cow;Cow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651716;Cowboy;Cowboy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651717;Cozy;Cozy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651718;Cradle;Cradle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651719;Cranberry;Cranberry;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651720;Cream;Cream;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651721;Crew;Crew;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651722;Crinckle;Crinckle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651723;Crinkling;Crinkling;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651724;Crinky;Crinky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651725;Crop;Crop;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651726;Cross;Cross;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651727;Crossbody;Crossbody;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651728;Crossover;Crossover;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651729;Cruelty;Cruelty;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651730;Crunch;Crunch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651731;Cuddly;Cuddly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651732;Cushion;Cushion;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651733;Cut;Cut;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651734;Cute;Cute;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651735;Cutlery;Cutlery;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651736;Cyber;Cyber;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651737;Cymbals;Cymbals;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651738;Daffy;Daffy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651739;Dandy;Dandy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651740;Dangler;Dangler;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651741;Danny;Danny;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651742;Dark;Dark;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651743;Darling;Darling;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651744;Darwin;Darwin;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651745;Deck;Deck;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651746;Dect;Dect;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651747;Deep;Deep;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651748;Deer;Deer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651749;Defender;Defender;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651750;Defrost;Defrost;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651751;Delight;Delight;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651752;Dental;Dental;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651753;Depth;Depth;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651754;Deserve;Deserve;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651755;Design;Design;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651756;Designer;Designer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651757;Designs;Designs;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651758;Diaper;Diaper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651759;Diffrax;Diffrax;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651760;Difrax;Difrax;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651761;Disappears;Disappears;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651762;Discover;Discover;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651763;Discovery;Discovery;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651764;Dishwasher;Dishwasher;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651765;Dispenser;Dispenser;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651766;Diy;Diy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651767;Down;Down;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651768;Download;Download;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651769;Dpack;Dpack;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651770;Drbrown;Drbrown;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651771;Dream;Dream;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651772;Dreamlight;Dreamlight;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651773;Dreams;Dreams;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651774;Dressing;Dressing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651775;Drink;Drink;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651776;Drip;Drip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651777;Drive;Drive;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651778;Driveway;Driveway;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651779;Dry;Dry;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651780;Dual;Dual;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651781;Dualfix;Dualfix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651782;Duo;Duo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651783;Dust;Dust;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651784;Dusty;Dusty;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651785;Dye;Dye;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651786;Eames;Eames;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651787;Earth;Earth;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651788;Easy;Easy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651789;Easyfit;Easyfit;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651790;Easylock;Easylock;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651791;Easymetal;Easymetal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651792;Easytwist;Easytwist;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651793;Easywood;Easywood;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651794;Ecolife;Ecolife;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651795;Economy;Economy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651796;Effect;Effect;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651797;Elastic;Elastic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651798;Electra;Electra;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651799;Electric;Electric;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651800;Elegantly;Elegantly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651801;Embossed;Embossed;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651802;Emerald;Emerald;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651803;Emybaby;Emybaby;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651804;Equilibrium;Equilibrium;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651805;Essential;Essential;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651806;Essentials;Essentials;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651807;Ethnic;Ethnic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651808;Everyone;Everyone;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651809;Evo;Evo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651810;Evolubed;Evolubed;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651811;Expanded;Expanded;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651812;Extended;Extended;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651813;Fabric;Fabric;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651814;Failure;Failure;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651815;Fairy;Fairy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651816;Fake;Fake;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651817;Family;Family;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651818;Familyfix;Familyfix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651819;Fancy;Fancy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651820;Farmstand;Farmstand;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651821;Fashion;Fashion;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651822;Fast;Fast;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651823;Feather;Feather;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651824;Features;Features;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651825;Feed;Feed;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651826;Feeder;Feeder;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651827;Feeding;Feeding;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651828;Feel;Feel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651829;Feeling;Feeling;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651830;Fetch;Fetch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651831;Fiber;Fiber;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651832;Fibreguard;Fibreguard;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651833;Fidget;Fidget;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651834;Fiends;Fiends;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651835;Fill;Fill;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651836;Filled;Filled;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651837;Find;Find;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651838;Finger;Finger;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651839;Fingertip;Fingertip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651840;Fire;Fire;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651841;Fireman;Fireman;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651842;Firming;Firming;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651843;First;First;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651844;Firstchoice;Firstchoice;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651845;Fish;Fish;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651846;Fisher;Fisher;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651847;Fisherman;Fisherman;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651848;Fishing;Fishing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651849;Fit;Fit;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651850;Fix;Fix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651851;Flannel;Flannel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651852;Flare;Flare;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651853;Flash;Flash;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651854;Flat;Flat;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651855;Fleece;Fleece;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651856;Flex;Flex;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651857;Flexi;Flexi;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651858;Flexifit;Flexifit;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651859;Flextm;Flextm;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651860;Flip;Flip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651861;Float;Float;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651862;Flow;Flow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651863;Fluid;Fluid;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651864;Fly;Fly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651865;Flying;Flying;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651866;Foam;Foam;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651867;Foggy;Foggy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651868;Foil;Foil;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651869;Fold;Fold;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651870;Foldable;Foldable;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651871;Folded;Folded;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651872;Folk;Folk;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651873;Follow;Follow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651874;Food;Food;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651875;Foods;Foods;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651876;Formers;Formers;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651877;Formula;Formula;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651878;Fountain;Fountain;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651879;Four;Four;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651880;Frame;Frame;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651881;Free;Free;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651882;Freeflow;Freeflow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651883;Fresh;Fresh;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651884;Freshfirsts;Freshfirsts;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651885;Friendly;Friendly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651886;Friends;Friends;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651887;Fulfilling;Fulfilling;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651888;Fulfils;Fulfils;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651889;Full;Full;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651890;Garden;Garden;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651891;Garter;Garter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651892;Gate;Gate;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651893;Genius;Genius;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651894;Giant;Giant;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651895;Gingival;Gingival;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651896;Glam;Glam;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651897;Glider;Glider;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651898;Globber;Globber;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651899;Glory;Glory;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651900;Glow;Glow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651901;Go;Go;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651902;Goal;Goal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651903;Gold;Gold;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651904;Golden;Golden;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651905;Gone;Gone;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651906;Good;Good;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651907;Goodbaby;Goodbaby;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651908;Goodnight;Goodnight;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651909;Grab;Grab;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651910;Gram;Gram;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651911;Grapefruit;Grapefruit;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651912;Graphic;Graphic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651913;Graphite;Graphite;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651914;Gray;Gray;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651915;Great;Great;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651916;Greatest;Greatest;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651917;Green;Green;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651918;Greenfilm;Greenfilm;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651919;Grey;Grey;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651920;Greyish;Greyish;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651921;Grid;Grid;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651922;Grip;Grip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651923;Grises;Grises;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651924;Grlitter;Grlitter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651925;Group;Group;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651926;Grow;Grow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651927;Guard;Guard;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651928;Gum;Gum;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651929;Guys;Guys;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651930;Handle;Handle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651931;Handles;Handles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651932;Hands;Hands;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651933;Handy;Handy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651934;Hang;Hang;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651935;Hanging;Hanging;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651936;Hap;Hap;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651937;Happiness;Happiness;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651938;Happy;Happy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651939;Harmony;Harmony;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651940;Harness;Harness;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651941;Has;Has;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651942;Hasbro;Hasbro;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651943;Have;Have;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651944;Having;Having;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651945;Hazel;Hazel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651946;Head;Head;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651947;Heard;Heard;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651948;Heart;Heart;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651949;Hearts;Hearts;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651950;Heather;Heather;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651951;Hedgehog;Hedgehog;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651952;Hedwig;Hedwig;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651953;Height;Height;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651954;Helmet;Helmet;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651955;Helper;Helper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651956;Hermifresh;Hermifresh;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651957;Hermisized;Hermisized;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651958;Heroes;Heroes;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651959;Hide;Hide;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651960;High;High;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651961;Highwaykick;Highwaykick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651962;Hills;Hills;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651963;Hip;Hip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651964;History;History;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651965;Hogwarts;Hogwarts;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651966;Hollie;Hollie;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651967;Home;Home;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651968;Honeycomb;Honeycomb;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651969;Honey;Honey;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651970;Hoopla;Hoopla;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651971;Hooty;Hooty;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651972;Hopes;Hopes;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651973;Hoppy;Hoppy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651974;Horn;Horn;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651975;Hot;Hot;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651976;Hotwheels;Hotwheels;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651977;House;House;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651978;Hover;Hover;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651979;Hubble;Hubble;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651980;Hug;Hug;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651981;Huggy;Huggy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651982;Hugo;Hugo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651983;Humidoo;Humidoo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651984;Hunter;Hunter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651985;Hut;Hut;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651986;Hybrid;Hybrid;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651987;Included;Included;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651988;Incrementally;Incrementally;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651989;Indigo;Indigo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651990;Indoor;Indoor;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651991;Ingenuity;Ingenuity;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651992;Instinctive;Instinctive;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651993;Integrated;Integrated;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651994;Intelli;Intelli;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651995;Intex;Intex;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651996;Into;Into;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651997;Invite;Invite;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651998;Ionic;Ionic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "651999;Ira;Ira;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652000;Iron;Iron;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652001;Island;Island;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652002;Isocatch;Isocatch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652003;Isofix;Isofix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652004;Isoquilt;Isoquilt;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652005;Isosafe;Isosafe;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652006;Jellybean;Jellybean;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652007;Jetpack;Jetpack;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652008;Jingle;Jingle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652009;Jittery;Jittery;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652010;Jude;Jude;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652011;Jumbo;Jumbo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652012;Jumper;Jumper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652013;Jumperoo;Jumperoo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652014;Jungle;Jungle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652015;Keys;Keys;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652016;Kick;Kick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652017;Kid;Kid;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652018;Kiddy;Kiddy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652019;Kidfix;Kidfix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652020;Kids;Kids;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652021;Kneeler;Kneeler;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652022;Knitted;Knitted;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652023;Knock;Knock;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652024;Ladybug;Ladybug;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652025;Landcape;Landcape;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652026;Landfill;Landfill;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652027;Landscape;Landscape;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652028;Lantrope;Lantrope;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652029;Laptop;Laptop;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652030;Last;Last;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652031;Laugh;Laugh;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652032;Layer;Layer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652033;Lead;Lead;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652034;Leaf;Leaf;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652035;League;League;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652036;Leak;Leak;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652037;Learn;Learn;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652038;Learning;Learning;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652039;Leather;Leather;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652040;Left;Left;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652041;Lego;Lego;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652042;Legs;Legs;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652043;Lemon;Lemon;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652044;Let;Let;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652045;Level;Level;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652046;Liberty;Liberty;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652047;Licorice;Licorice;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652048;Lid;Lid;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652049;Lids;Lids;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652050;Life;Life;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652051;Lifestyle;Lifestyle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652052;Lights;Lights;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652053;Like;Like;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652054;Lilttlelife;Lilttlelife;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652055;Limited;Limited;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652056;Limiter;Limiter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652057;Line;Line;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652058;Lines;Lines;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652059;Link;Link;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652060;Linus;Linus;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652061;Litetrax;Litetrax;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652062;Lithium;Lithium;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652063;Little;Little;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652064;Littlelife;Littlelife;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652065;Live;Live;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652066;Lock;Lock;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652067;Logistic;Logistic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652068;Look;Look;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652069;Looking;Looking;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652070;Looks;Looks;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652071;Looney;Looney;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652072;Loose;Loose;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652073;Lounge;Lounge;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652074;Lounger;Lounger;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652075;Lucky;Lucky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652076;Lunch;Lunch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652077;Lunchbag;Lunchbag;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652078;Lunchbox;Lunchbox;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652079;Made;Made;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652080;Magic;Magic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652081;Magical;Magical;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652082;Magnetic;Magnetic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652083;Maidstone;Maidstone;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652084;Majestic;Majestic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652085;Make;Make;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652086;Mammites;Mammites;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652087;Man;Man;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652088;Margin;Margin;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652089;Marshall;Marshall;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652090;Marvel;Marvel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652091;Masks;Masks;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652092;Matblue;Matblue;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652093;Match;Match;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652094;Matching;Matching;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652095;Matchstick;Matchstick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652096;Matchy;Matchy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652097;Mattel;Mattel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652098;Maxiwood;Maxiwood;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652099;Meadow;Meadow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652100;Meal;Meal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652101;Mealtime;Mealtime;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652102;Mech;Mech;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652103;Medium;Medium;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652104;Mega;Mega;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652105;Memories;Memories;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652106;Memory;Memory;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652107;Mickey;Mickey;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652108;Microfiber;Microfiber;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652109;Microwave;Microwave;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652110;Mid;Mid;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652111;Might;Might;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652112;Military;Military;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652113;Milk;Milk;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652114;Milkcollection;Milkcollection;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652115;Minimal;Minimal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652116;Minimum;Minimum;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652117;Mirror;Mirror;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652118;Mist;Mist;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652119;Modeling;Modeling;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652120;Modular;Modular;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652121;Mold;Mold;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652122;Monitor;Monitor;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652123;Months;Months;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652124;Mood;Mood;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652125;Moon;Moon;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652126;Moonglow;Moonglow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652127;Moonlight;Moonlight;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652128;Moonstone;Moonstone;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652129;More;More;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652130;Mosaic;Mosaic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652131;Motion;Motion;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652132;Motorola;Motorola;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652133;Mountains;Mountains;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652134;Moves;Moves;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652135;Much;Much;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652136;Muddles;Muddles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652137;Muddy;Muddy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652138;Mulesing;Mulesing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652139;Multidry;Multidry;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652140;Multifix;Multifix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652141;Multirelax;Multirelax;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652142;Munchkin;Munchkin;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652143;Music;Music;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652144;Musical;Musical;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652145;Must;Must;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652146;Mustard;Mustard;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652147;Mytrax;Mytrax;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652148;Narwhal;Narwhal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652149;Nash;Nash;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652150;Nat;Nat;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652151;Natural;Natural;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652152;Naturalfeeling;Naturalfeeling;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652153;Natursquare;Natursquare;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652154;Navy;Navy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652155;Near;Near;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652156;Need;Need;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652157;Needs;Needs;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652158;Nenuco;Nenuco;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652159;Nest;Nest;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652160;Neutral;Neutral;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652161;Newbelted;Newbelted;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652162;Newborn;Newborn;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652163;Newport;Newport;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652164;Next;Next;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652165;Nibbles;Nibbles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652166;Nice;Nice;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652167;Night;Night;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652168;Nightblue;Nightblue;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652169;Nighttime;Nighttime;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652170;Nipple;Nipple;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652171;Nomad;Nomad;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652172;North;North;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652173;Nostalgic;Nostalgic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652174;Nothing;Nothing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652175;Now;Now;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652176;Nuby;Nuby;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652177;Nude;Nude;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652178;Nursery;Nursery;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652179;Oak;Oak;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652180;Observatory;Observatory;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652181;Odor;Odor;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652182;Odour;Odour;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652183;Oekotex;Oekotex;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652184;Oil;Oil;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652185;Old;Old;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652186;One;One;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652187;Online;Online;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652188;Only;Only;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652189;Open;Open;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652190;Organic;Organic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652191;Organizer;Organizer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652192;Padded;Padded;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652193;Padding;Padding;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652194;Paddy;Paddy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652195;Pads;Pads;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652196;Paisley;Paisley;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652197;Paper;Paper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652198;Paperpag;Paperpag;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652199;Peach;Peach;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652200;Pear;Pear;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652201;Pearl;Pearl;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652202;Pears;Pears;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652203;Pedal;Pedal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652204;Pediatric;Pediatric;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652205;Pediatrics;Pediatrics;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652206;Peek;Peek;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652207;Peekaboo;Peekaboo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652208;Pennywort;Pennywort;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652209;Pepper;Pepper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652210;Perce;Perce;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652211;Perfect;Perfect;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652212;Perform;Perform;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652213;Perfume;Perfume;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652214;Philips;Philips;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652215;Photoprint;Photoprint;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652216;Pillow;Pillow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652217;Pilot;Pilot;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652218;Pineapple;Pineapple;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652219;Pingoo;Pingoo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652220;Pink;Pink;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652221;Pioneers;Pioneers;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652222;Platinum;Platinum;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652223;Play;Play;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652224;Player;Player;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652225;Players;Players;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652226;Playgro;Playgro;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652227;Playing;Playing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652228;Playkit;Playkit;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652229;Playroom;Playroom;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652230;Playtime;Playtime;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652231;Please;Please;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652232;Pooh;Pooh;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652233;Pooky;Pooky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652234;Poppy;Poppy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652235;Post;Post;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652236;Potter;Potter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652237;Powder;Powder;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652238;Power;Power;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652239;Precious;Precious;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652240;Pregnant;Pregnant;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652241;Prem;Prem;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652242;Premium;Premium;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652243;Preschool;Preschool;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652244;Press;Press;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652245;Pretty;Pretty;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652246;Prevent;Prevent;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652247;Price;Price;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652248;Prim;Prim;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652249;Print;Print;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652250;Printed;Printed;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652251;Prints;Prints;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652252;Prof;Prof;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652253;Professional;Professional;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652254;Projector;Projector;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652255;Proof;Proof;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652256;Protect;Protect;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652257;Protector;Protector;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652258;Prowl;Prowl;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652259;Puddles;Puddles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652260;Puff;Puff;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652261;Puffies;Puffies;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652262;Puffy;Puffy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652263;Pulldown;Pulldown;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652264;Pump;Pump;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652265;Pup;Pup;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652266;Purple;Purple;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652267;Push;Push;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652268;Pushchair;Pushchair;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652269;Pushher;Pushher;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652270;Put;Put;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652271;Puzzle;Puzzle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652272;Puzzles;Puzzles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652273;Qplay;Qplay;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652274;Quick;Quick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652275;Quickrelease;Quickrelease;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652276;Quidditch;Quidditch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652277;Quilt;Quilt;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652278;Quilted;Quilted;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652279;Quilting;Quilting;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652280;Quite;Quite;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652281;Racing;Racing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652282;Rain;Rain;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652283;Rainbow;Rainbow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652284;Rainforest;Rainforest;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652285;Rainstick;Rainstick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652286;Ramble;Ramble;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652287;Ran;Ran;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652288;Rattle;Rattle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652289;Rattles;Rattles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652290;Rattling;Rattling;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652291;Reach;Reach;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652292;Ready;Ready;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652293;Real;Real;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652294;Really;Really;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652295;Rebel;Rebel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652296;Recline;Recline;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652297;Recycled;Recycled;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652298;Red;Red;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652299;Refill;Refill;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652300;Refreshing;Refreshing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652301;Regular;Regular;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652302;Remember;Remember;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652303;Research;Research;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652304;Response;Response;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652305;Responsible;Responsible;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652306;Revolutionary;Revolutionary;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652307;Ribstop;Ribstop;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652308;Ricky;Ricky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652309;Rinse;Rinse;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652310;Rinser;Rinser;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652311;Ripstop;Ripstop;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652312;Rise;Rise;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652313;Road;Road;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652314;Rocket;Rocket;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652315;Rocking;Rocking;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652316;Round;Round;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652317;Safe;Safe;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652318;Safeguard;Safeguard;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652319;Safety;Safety;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652320;Saffire;Saffire;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652321;Sailor;Sailor;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652322;Save;Save;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652323;Saw;Saw;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652324;Scale;Scale;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652325;School;School;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652326;Scoop;Scoop;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652327;Scoops;Scoops;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652328;Scrabble;Scrabble;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652329;Scrub;Scrub;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652330;Sea;Sea;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652331;Seal;Seal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652332;Searching;Searching;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652333;Season;Season;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652334;Seat;Seat;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652335;Secureguard;Secureguard;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652336;Securetech;Securetech;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652337;Security;Security;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652338;See;See;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652339;Seek;Seek;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652340;Seen;Seen;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652341;Sense;Sense;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652342;Senses;Senses;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652343;Sensitive;Sensitive;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652344;Sensor;Sensor;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652345;Sensorsafe;Sensorsafe;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652346;Sensory;Sensory;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652347;Serve;Serve;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652348;Settle;Settle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652349;Shadow;Shadow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652350;Shake;Shake;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652351;Shale;Shale;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652352;Shampoo;Shampoo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652353;Shape;Shape;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652354;Shapes;Shapes;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652355;Shell;Shell;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652356;Shells;Shells;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652357;Shield;Shield;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652358;Shields;Shields;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652359;Shieldsmedela;Shieldsmedela;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652360;Shine;Shine;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652361;Shiny;Shiny;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652362;Shirt;Shirt;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652363;Shirts;Shirts;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652364;Shnuggle;Shnuggle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652365;Shock;Shock;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652366;Shoesaver;Shoesaver;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652367;Shower;Shower;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652368;Sict;Sict;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652369;Side;Side;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652370;Sight;Sight;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652371;Sights;Sights;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652372;Sigles;Sigles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652373;Sign;Sign;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652374;Silky;Silky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652375;Silkysoft;Silkysoft;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652376;Silly;Silly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652377;Silver;Silver;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652378;Simplee;Simplee;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652379;Simply;Simply;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652380;Single;Single;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652381;Sip;Sip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652382;Sippee;Sippee;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652383;Sipper;Sipper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652384;Sippy;Sippy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652385;Sir;Sir;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652386;Sirens;Sirens;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652387;Sirona;Sirona;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652388;Sit;Sit;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652389;Six;Six;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652390;Size;Size;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652391;Skin;Skin;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652392;Skinny;Skinny;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652393;Skinsoft;Skinsoft;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652394;Skip;Skip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652395;Sky;Sky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652396;Slate;Slate;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652397;Sleep;Sleep;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652398;Sleeper;Sleeper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652399;Slide;Slide;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652400;Sliding;Sliding;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652401;Sloth;Sloth;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652402;Slow;Slow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652403;Slug;Slug;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652404;Sluggy;Sluggy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652405;Slush;Slush;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652406;Small;Small;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652407;Smart;Smart;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652408;Smell;Smell;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652409;Smushee;Smushee;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652410;Snap;Snap;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652411;Snapback;Snapback;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652412;Snoopy;Snoopy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652413;Snore;Snore;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652414;Society;Society;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652415;Soft;Soft;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652416;Softener;Softener;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652417;Softness;Softness;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652418;Softtouch;Softtouch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652419;Softzone;Softzone;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652420;Sooter;Sooter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652421;Soothe;Soothe;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652422;Soother;Soother;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652423;Soothers;Soothers;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652424;Soothie;Soothie;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652425;Soothing;Soothing;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652426;Sophiesticated;Sophiesticated;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652427;Sorter;Sorter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652428;Sound;Sound;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652429;Source;Source;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652430;Soy;Soy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652431;Space;Space;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652432;Spaceship;Spaceship;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652433;Spandex;Spandex;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652434;Spark;Spark;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652435;Sparkle;Sparkle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652436;Sparkly;Sparkly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652437;Special;Special;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652438;Specialists;Specialists;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652439;Specialneeds;Specialneeds;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652440;Speed;Speed;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652441;Speedy;Speedy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652442;Spiderman;Spiderman;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652443;Spidey;Spidey;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652444;Spill;Spill;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652445;Spin;Spin;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652446;Spinel;Spinel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652447;Spinner;Spinner;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652448;Spinning;Spinning;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652449;Spirit;Spirit;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652450;Spongebob;Spongebob;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652451;Spooky;Spooky;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652452;Spread;Spread;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652453;Spring;Spring;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652454;Sprint;Sprint;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652455;Sprouts;Sprouts;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652456;Squad;Squad;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652457;Squeeze;Squeeze;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652458;Stack;Stack;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652459;Stain;Stain;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652460;Stainless;Stainless;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652461;Standup;Standup;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652462;Star;Star;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652463;Starry;Starry;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652464;Stars;Stars;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652465;Start;Start;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652466;Starter;Starter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652467;Startoys;Startoys;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652468;Starts;Starts;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652469;Stay;Stay;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652470;Steady;Steady;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652471;Steel;Steel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652472;Steeple;Steeple;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652473;Stem;Stem;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652474;Step;Step;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652475;Stick;Stick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652476;Sticker;Sticker;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652477;Stickers;Stickers;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652478;Sticks;Sticks;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652479;Stilts;Stilts;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652480;Stitch;Stitch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652481;Stitchs;Stitchs;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652482;Stocker;Stocker;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652483;Stone;Stone;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652484;Stork;Stork;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652485;Storm;Storm;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652486;Stormtrooper;Stormtrooper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652487;Stormtroopers;Stormtroopers;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652488;Story;Story;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652489;Straight;Straight;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652490;Straw;Straw;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652491;Strawberry;Strawberry;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652492;Streams;Streams;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652493;Street;Street;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652494;Stretch;Stretch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652495;Stride;Stride;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652496;Strike;Strike;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652497;Stringent;Stringent;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652498;Stroll;Stroll;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652499;Stroller;Stroller;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652500;Strong;Strong;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652501;Stubby;Stubby;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652502;Stunt;Stunt;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652503;Suction;Suction;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652504;Supple;Supple;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652505;Surefix;Surefix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652506;Surround;Surround;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652507;Sustainable;Sustainable;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652508;Swimtrainer;Swimtrainer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652509;Synthetic;Synthetic;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652510;System;System;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652511;Tab;Tab;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652512;Tablet;Tablet;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652513;Take;Take;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652514;Tales;Tales;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652515;Teal;Teal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652516;Team;Team;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652517;Teat;Teat;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652518;Teats;Teats;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652519;Tech;Tech;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652520;Technology;Technology;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652521;Tee;Tee;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652522;Teeny;Teeny;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652523;Teepee;Teepee;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652524;Teethe;Teethe;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652525;Tether;Tether;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652526;Textured;Textured;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652527;Thermoadvanced;Thermoadvanced;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652528;Thermobaby;Thermobaby;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652529;Thermokid;Thermokid;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652530;Thick;Thick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652531;Things;Things;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652532;Think;Think;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652533;Thunder;Thunder;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652534;Tiger;Tiger;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652535;Tiggy;Tiggy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652536;Tiles;Tiles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652537;Time;Time;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652538;Tinkerbell;Tinkerbell;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652539;Tiny;Tiny;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652540;Tip;Tip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652541;Tippee;Tippee;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652542;Titanium;Titanium;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652543;Toddler;Toddler;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652544;Together;Together;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652545;Toomies;Toomies;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652546;Toons;Toons;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652547;Toot;Toot;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652548;Toss;Toss;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652549;Totally;Totally;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652550;Town;Town;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652551;Toxproof;Toxproof;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652552;Toy;Toy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652553;Toys;Toys;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652554;Trail;Trail;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652555;Trainer;Trainer;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652556;Training;Training;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652557;Travel;Travel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652558;Travelnest;Travelnest;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652559;Treasure;Treasure;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652560;Trend;Trend;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652561;Trilogy;Trilogy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652562;Trip;Trip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652563;Truespeed;Truespeed;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652564;Try;Try;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652565;Turn;Turn;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652566;Turns;Turns;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652567;Twin;Twin;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652568;Twinkle;Twinkle;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652569;Twirly;Twirly;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652570;Twist;Twist;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652571;Twistclick;Twistclick;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652572;Twisteed;Twisteed;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652573;Twistflow;Twistflow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652574;Twistshake;Twistshake;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652575;Twisty;Twisty;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652576;Unclip;Unclip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652577;Underneath;Underneath;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652578;Unicorn;Unicorn;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652579;Unisex;Unisex;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652580;Universal;Universal;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652581;Universe;Universe;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652582;Unlimited;Unlimited;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652583;Up;Up;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652584;Upside;Upside;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652585;Urban;Urban;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652586;Vanilla;Vanilla;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652587;Varcity;Varcity;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652588;Velvet;Velvet;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652589;Vertical;Vertical;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652590;Vintage;Vintage;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652591;Viper;Viper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652592;Visco;Visco;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652593;Visor;Visor;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652594;Waddles;Waddles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652595;Waiting;Waiting;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652596;Walker;Walker;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652597;Wall;Wall;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652598;Wally;Wally;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652599;Want;Want;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652600;Warm;Warm;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652601;Warmy;Warmy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652602;Warner;Warner;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652603;Wash;Wash;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652604;Waste;Waste;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652605;Watchy;Watchy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652606;Water;Water;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652607;Waterfall;Waterfall;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652608;Waterproof;Waterproof;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652609;Waterwipes;Waterwipes;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652610;Wave;Wave;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652611;Way;Way;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652612;Wear;Wear;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652613;Weathers;Weathers;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652614;Weight;Weight;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652615;Welcome;Welcome;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652616;Well;Well;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652617;Wellness;Wellness;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652618;Whale;Whale;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652619;Whaloo;Whaloo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652620;Wheel;Wheel;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652621;Wheelie;Wheelie;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652622;Wheels;Wheels;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652623;Whiskers;Whiskers;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652624;Whisperquiet;Whisperquiet;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652625;White;White;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652626;Whoolie;Whoolie;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652627;Wiggles;Wiggles;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652628;Wild;Wild;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652629;Will;Will;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652630;Wind;Wind;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652631;Wings;Wings;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652632;Winks;Winks;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652633;Winner;Winner;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652634;Winnie;Winnie;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652635;Winter;Winter;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652636;Wipes;Wipes;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652637;Wise;Wise;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652638;Wish;Wish;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652639;Wishes;Wishes;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652640;With;With;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652641;Without;Without;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652642;Wom;Wom;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652643;Wonder;Wonder;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652644;Woody;Woody;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652645;Woof;Woof;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652646;Words;Words;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652647;Wordsearch;Wordsearch;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652648;World;World;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652649;Woven;Woven;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652650;Wrist;Wrist;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652651;Xtra;Xtra;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652652;Yellow;Yellow;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652653;York;York;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652654;Young;Young;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652655;Youth;Youth;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652656;Yoyo;Yoyo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652657;Yummix;Yummix;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652658;Yummy;Yummy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652659;Zig;Zig;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652660;Ziggy;Ziggy;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652661;Zipper;Zipper;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "652662;Zuma;Zuma;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "670190;\"\"\"caleçons cyclistes\"\"\";\"leggings ciclistas\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "670972;\"\"\"molleton gratté\"\"\";felpa;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "671528;\"\"\"Ethnic Animals\"\"\";\"\"\"Ethnic Animals\"\"\";;;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "672111;\"Coque auto\";\"silla de coche\";;;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "672112;siège-auto;\"silla de auto\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "672113;Chancelière;\"saco cubrepies\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "675807;barrette;clip;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "676435;fille;niña;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "676439;lutin;duende;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "676518;garçon;niño;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "678091;\"dos à la route\";\"a contramarcha\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "678092;\"face à la route\";\"en el sentido de la marcha\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "685483;T-shirt;Camiseta;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "685484;\"manches longues\";\"manga larga\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "686551;Ensemble;Conjunto;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "693924;i-size;i-size;;;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "707613;cérémonie;ceremonia;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "710561;Curseur;\"Tirador de la cremallera\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "710562;Protège-menton;\"Protección antipellizcos\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "710599;Ouverture;Cierre;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "710811;armuré;texturizado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "710838;revers;dobladillo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "710871;boutonnée;\"con botones\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711118;\"collants fins\";medias;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711119;\"collants épais\";leotardos;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711376;Sous-pull;Camiseta;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711377;Salomés;Merceditas;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711378;Babies;Merceditas;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711379;Bride;Tira;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711380;Microfibre;Microfibra;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711381;Souple;flexible;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711382;Ourlet;dobladillo;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "711396;Nacré;nacarado;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "747078;\"Precio reducido de\";\"Precio reducido de\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "747079;Mercancías;Mercancías;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "747080;Ver;Ver;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "747081;productos;productos;fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "747082;\"Número de pedido:\";\"Número de pedido:\";fr;es;"
+    },
+    {
+        "id;word_source;word_replace;language_from;languages_to;case_sensitive": "747083;Carrito;Carrito;fr;es;"
+    }
+]

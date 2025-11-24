@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basecat Translator</title>
+    <style>
+        body {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: #f5f5f5;
+            box-sizing: border-box;
+        }
+
+        .action-zone {
+            padding: 20px;
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .language-selector {
+            margin-bottom: 15px;
+        }
+
+        .language-selector-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .language-selector-title::before {
+            content: "🌐";
+            margin-right: 8px;
+            font-size: 16px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .checkbox-item {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.2s;
+        }
+
+        .checkbox-item:has(input:checked) {
+            background: #eff6ff;
+            border-color: #2563eb;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            width: auto;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+
+        .checkbox-item label {
+            font-size: 13px;
+            cursor: pointer;
+            flex: 1;
+            user-select: none;
+        }
+
+        .action-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background: #e0e0e0 !important;
+            color: #999 !important;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn-open {
+            background: #2563eb;
+            color: white;
+        }
+
+        .btn-open:hover:not(:disabled) {
+            background: #1d4ed8;
+        }
+
+        .btn-open::before {
+            content: "🚀";
+            font-size: 16px;
+        }
+
+        .btn-translate-all {
+            background: #2563eb;
+            color: white;
+        }
+
+        .btn-translate-all:hover:not(:disabled) {
+            background: #1d4ed8;
+        }
+
+        .btn-translate-all::before {
+            content: "✨";
+            font-size: 16px;
+        }
+
+        .btn-translate-current {
+            background: #64748b;
+            color: white;
+        }
+
+        .btn-translate-current:hover:not(:disabled) {
+            background: #475569;
+        }
+
+        .btn-translate-current::before {
+            content: "📝";
+            font-size: 16px;
+        }
+
+        .btn-save {
+            background: #64748b;
+            color: white;
+        }
+
+        .btn-save:hover:not(:disabled) {
+            background: #475569;
+        }
+
+        .btn-save::before {
+            content: "🔄";
+            font-size: 16px;
+        }
+
+        .btn-validate-current {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-validate-current:hover:not(:disabled) {
+            background: #059669;
+        }
+
+        .btn-validate-current::before {
+            content: "✓";
+            font-size: 16px;
+        }
+
+        .btn-validate-all {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-validate-all:hover:not(:disabled) {
+            background: #059669;
+        }
+
+        .btn-close {
+            background: #64748b;
+            color: white;
+        }
+
+        .btn-close:hover:not(:disabled) {
+            background: #ef4444;
+        }
+
+        .btn-close::before {
+            content: "🗑️";
+            font-size: 16px;
+        }
+
+        .btn-save-api {
+            background: #64748b;
+            color: white;
+            padding: 10px;
+            font-size: 13px;
+        }
+
+        .btn-save-api:hover:not(:disabled) {
+            background: #475569;
+        }
+
+        .info-section {
+            padding: 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-content {
+            margin-top: 12px;
+        }
+
+        .section-title::before {
+            margin-right: 8px;
+            font-size: 16px;
+        }
+
+        .section-title.progress::before {
+            content: "⏳";
+        }
+
+        .section-title.current-page::before {
+            content: "📄";
+        }
+
+        .section-title.status::before {
+            content: "📊";
+        }
+
+        .section-title.config::before {
+            content: "⚙️";
+        }
+
+        .progress-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .progress-bar-container {
+            display: none;
+        }
+
+        .progress-bar-container.active {
+            display: block;
+        }
+
+        .progress-bar-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .progress-bar-flag {
+            font-size: 16px;
+            margin-right: 8px;
+        }
+
+        .progress-bar-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #333;
+            flex: 1;
+        }
+
+        .progress-bar-status {
+            font-size: 11px;
+            color: #666;
+            background: #f0f0f0;
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+
+        .progress-bar-track {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+            border-radius: 10px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        .progress-bar-fill.es {
+            background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%);
+        }
+
+        .progress-bar-fill.el {
+            background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+        }
+
+        .progress-bar-fill.nl {
+            background: linear-gradient(90deg, #8b5cf6 0%, #a78bfa 100%);
+        }
+
+        .progress-bar-fill.completed {
+            background: linear-gradient(90deg, #10b981 0%, #34d399 100%);
+        }
+
+        .current-page-content {
+            background: #f8fafc;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            border-left: 3px solid #64748b;
+            margin-bottom: 16px;
+        }
+
+        #currentLanguage {
+            color: #1f2937;
+            font-weight: 600;
+            display: block;
+        }
+
+        .pages-status {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .page-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 12px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            font-size: 13px;
+            border-left: 3px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .page-item .status-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .page-item.ready {
+            background: #d4edda;
+            border-left-color: #28a745;
+        }
+
+        .page-item.ready .status-icon {
+            color: #28a745;
+        }
+
+        .page-item.missing {
+            background: #f8d7da;
+            border-left-color: #dc3545;
+        }
+
+        .page-item.missing .status-icon {
+            color: #dc3545;
+        }
+
+        .page-item.not-detected {
+            background: #f8f9fa;
+            opacity: 0.6;
+            border-left-color: #ddd;
+        }
+
+        .page-item.loading {
+            background: #e3f2fd;
+            border-left-color: #2196F3;
+        }
+
+        .page-item .loader {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #ddd;
+            border-top-color: #2196F3;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 13px;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #2563eb;
+        }
+
+        .info-text {
+            font-size: 12px;
+            color: #666;
+            margin-top: 8px;
+            line-height: 1.4;
+        }
+
+        .info-text a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .info-text a:hover {
+            text-decoration: underline;
+        }
+
+        .status {
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            margin-top: 10px;
+            display: none;
+            border-left: 3px solid;
+        }
+
+        .status.success {
+            background: #d1fae5;
+            color: #065f46;
+            border-left-color: #10b981;
+            display: block;
+        }
+
+        .status.error {
+            background: #fee2e2;
+            color: #991b1b;
+            border-left-color: #ef4444;
+            display: block;
+        }
+
+        .status.info {
+            background: #dbeafe;
+            color: #1e40af;
+            border-left-color: #2563eb;
+            display: block;
+        }
+
+        .status.warning {
+            background: #fef3c7;
+            color: #92400e;
+            border-left-color: #f59e0b;
+            display: block;
+        }
+
+        .section.collapsed .section-content {
+            display: none;
+        }
+
+        .section-title {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .section-title::after {
+            content: "▼";
+            margin-left: auto;
+            font-size: 10px;
+            opacity: 0.5;
+            transition: transform 0.2s;
+        }
+
+        .section.collapsed .section-title::after {
+            transform: rotate(-90deg);
+        }
+
+        /* État vide de progression */
+        .progress-empty {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 13px;
+        }
+
+        .progress-empty.hidden {
+            display: none;
+        }
+
+        .empty-section {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .empty-section .section-title {
+            color: #92400e;
+        }
+
+        .empty-section .section-title::before {
+            content: "⚠️";
+        }
+
+        .empty-fields-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .empty-field-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 12px;
+            background: white;
+            border-radius: 6px;
+            border-left: 3px solid #f59e0b;
+            font-size: 13px;
+        }
+
+        .empty-field-lang {
+            font-weight: 600;
+            margin-right: 12px;
+            min-width: 120px;
+        }
+
+        .empty-field-name {
+            flex: 1;
+            color: #666;
+        }
+
+        .empty-field-icon {
+            font-size: 16px;
+        }
+
+        .action-buttons_col {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            gap: 8px;
+        }
+
+        .progress-products {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Groupe de barres par produit */
+        .product-progress-group {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 12px;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .product-progress-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #cbd5e1;
+        }
+
+        .product-progress-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #1e293b;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .product-progress-id {
+            background: #2563eb;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .product-progress-type {
+            font-size: 11px;
+            color: #64748b;
+            font-weight: 500;
+            text-transform: uppercase;
+            background: #f1f5f9;
+            padding: 3px 8px;
+            border-radius: 8px;
+        }
+
+        .product-progress-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .progress-bar-container {
+            display: block;
+        }
+
+        .progress-bar-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .progress-bar-flag {
+            font-size: 16px;
+            margin-right: 8px;
+        }
+
+        .progress-bar-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #333;
+            flex: 1;
+        }
+
+        .progress-bar-status {
+            font-size: 11px;
+            color: #666;
+            background: #f0f0f0;
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+
+        .progress-bar-track {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+            border-radius: 10px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        .progress-bar-fill.es {
+            background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%);
+        }
+
+        .progress-bar-fill.el {
+            background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+        }
+
+        .progress-bar-fill.nl {
+            background: linear-gradient(90deg, #8b5cf6 0%, #a78bfa 100%);
+        }
+
+        .progress-bar-fill.completed {
+            background: linear-gradient(90deg, #10b981 0%, #34d399 100%);
+        }
+
+        /* État vide de progression */
+        .progress-empty {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 13px;
+        }
+
+        .progress-empty.hidden {
+            display: none;
+        }
+
+        .product-progress-group {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 12px;
+            animation: slideIn 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-progress-group::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--product-color, #2563eb);
+        }
+
+        .section-title.stats-title::before {
+            content: "📊";
+        }
+
+        .stats-empty {
+            text-align: center;
+            padding: 30px 20px;
+            color: #666;
+        }
+
+        .stats-empty p {
+            margin: 8px 0;
+            font-size: 14px;
+        }
+
+        .stats-hint {
+            font-size: 12px !important;
+            color: #999;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            padding: 16px;
+            color: white;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .stat-card-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .stat-card-cost {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .stat-card-info {
+            background: linear-gradient(135deg, #4facfe 0%, #05a7af 100%);
+        }
+
+        .stat-card-tokens {
+            background: linear-gradient(135deg, #21b051 0%, #1e8d79 100%);
+        }
+
+        .stat-icon {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            letter-spacing: -0.5px;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stats-by-language {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        .stats-subtitle {
+            font-size: 13px;
+            font-weight: 600;
+            color: #333;
+            margin: 0 0 12px 0;
+        }
+
+        .lang-stat-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 12px;
+            background: white;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            font-size: 13px;
+            border-left: 3px solid #2563eb;
+        }
+
+        .lang-stat-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .lang-stat-name {
+            font-weight: 600;
+            color: #333;
+            flex: 1;
+        }
+
+        .lang-stat-count {
+            color: #666;
+            font-size: 12px;
+            margin-right: 12px;
+        }
+
+        .lang-stat-cost {
+            font-weight: 600;
+            color: #10b981;
+            font-family: 'Courier New', monospace;
+        }
+
+        .stats-footer {
+            text-align: center;
+            padding: 12px 0;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 16px;
+        }
+
+        .stats-footer small {
+            color: #999;
+            font-size: 11px;
+        }
+
+        .btn-reset-stats {
+            width: 100%;
+            margin-top: 12px;
+            background: #64748b;
+            color: white;
+            padding: 10px;
+            font-size: 13px;
+        }
+
+        .btn-reset-stats:hover:not(:disabled) {
+            background: #ef4444;
+        }
+
+        .btn-reset-stats::before {
+            content: "";
+            margin-right: 0;
+        }
+
+        @media (max-width: 400px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .lang-stat-row {
+                flex-wrap: wrap;
+            }
+
+            .lang-stat-count {
+                flex-basis: 100%;
+                margin: 4px 0 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="action-zone">
+
+        <div class="current-page-content">
+            <span id="currentLanguage">Non détectée</span>
+        </div>
+
+        <div class="action-buttons">
+            <div class="action-buttons_col">
+                <button id="saveBtn" class="btn-save">Étape de validation</button>
+                <button id="validateCurrentBtn" class="btn-validate-current">Valider</button>
+            </div>
+
+            <button id="openLanguagesBtn" class="btn-open">Ouvrir les langues sélectionnées</button>
+
+            <div class="action-buttons_col">
+                <button id="translateAllBtn" class="btn-translate-all" disabled>Traduire tous</button>
+                <button id="translateBtn" class="btn-translate-current">Traduire</button>
+            </div>
+
+            <button id="validateAllBtn" class="btn-validate-all" disabled>Valider toutes les pages traduites</button>
+
+            <button id="closeTranslatedBtn" class="btn-close">Fermer les onglets traduits</button>
+        </div>
+
+        <!-- Statuts des actions -->
+        <div id="translateAllStatus" class="status"></div>
+        <div id="translateStatus" class="status"></div>
+        <div id="saveStatus" class="status"></div>
+        <div id="validateStatus" class="status"></div>
+    </div>
+
+    <div class="info-section">
+        <!-- 0. Avancement du process -->
+        <div class="section">
+            <div class="section-title progress">Avancement du process</div>
+            <div class="section-content">
+                <div class="progress-empty" id="progressEmpty">Aucune opération en cours</div>
+                <div class="progress-products" id="progressProducts"></div>
+            </div>
+        </div>
+
+        <!-- 1. Check si champ vide -->
+        <div class="section empty-section">
+            <div class="section-title status">Champ vide</div>
+            <div class="section-content">
+
+            </div>
+        </div>
+
+        <!-- 2. Sélection des langues -->
+        <div class="section">
+            <div class="language-selector-title">Sélectionner les langues cibles</div>
+            <div class="section-content">
+                <div class="language-selector">
+                    <div class="checkbox-group" id="languageCheckboxes">
+                        <!-- Les checkboxes seront générées dynamiquement par JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Configuration -->
+        <div class="section collapsed">
+            <div class="section-title config">Configuration API</div>
+            <div class="section-content">
+                <input type="text" id="apiKey" placeholder="Clé API OpenAI (sk-...)">
+                <div class="info-text">
+                    <a href="https://platform.openai.com/api-keys" target="_blank">🔑 Obtenir une clé API</a>
+                </div>
+                <button id="saveApiBtn" class="btn-save-api">Enregistrer la clé</button>
+                <div id="apiStatus" class="status"></div>
+
+                <button id="colorizeBtn" class="btn-save-api" style="margin-top: 10px;">🎨 Coloriser les onglets</button>
+            </div>
+        </div>
+
+        <!-- 4. Statistiques d'utilisation -->
+        <div class="section collapsed">
+            <div class="section-title stats-title">Statistiques d'utilisation</div>
+            <div class="section-content" id="statsContent">
+                <div class="stats-empty">
+                    <p>📊 Aucune traduction effectuée pour le moment</p>
+                    <p class="stats-hint">Les statistiques apparaîtront après votre première traduction</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="sidepanel.js"></script>
+</body>
+
+</html>
