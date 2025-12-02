@@ -11,7 +11,10 @@ const activeProducts = new Map();
 // BARRE DE PROGRESSION GLOBALE DU PROCESSUS
 // ========================================
 
-function updateProcessStep(stepId, status) {
+// Stocker l'état des steps par produit
+const productStepsState = new Map();
+
+function updateProcessStep(stepId, status, productId = null) {
     const step = document.getElementById(stepId);
     if (!step) return;
 
@@ -38,12 +41,130 @@ function updateProcessStep(stepId, status) {
             circle.textContent = stepNum;
         }
     }
+    
+    // Sauvegarder l'état si un productId est fourni
+    if (productId) {
+        const stepKey = stepId === 'step-open' ? 'open' : stepId === 'step-translate' ? 'translate' : 'validate';
+        const currentState = productStepsState.get(productId) || { open: 'reset', translate: 'reset', validate: 'reset' };
+        currentState[stepKey] = status;
+        saveProductStepsState(productId, currentState);
+    }
 }
 
 function resetProcessProgress() {
     updateProcessStep('step-open', 'reset');
     updateProcessStep('step-translate', 'reset');
     updateProcessStep('step-validate', 'reset');
+}
+
+// Sauvegarder l'état des steps pour un produit
+function saveProductStepsState(productId, stepsState) {
+    productStepsState.set(productId, stepsState);
+    // Sauvegarder aussi dans chrome.storage pour persister entre les sessions
+    chrome.storage.local.set({ [`productSteps_${productId}`]: stepsState });
+}
+
+// Charger l'état des steps pour un produit
+async function loadProductStepsState(productId) {
+    if (productStepsState.has(productId)) {
+        return productStepsState.get(productId);
+    }
+    
+    try {
+        const key = `productSteps_${productId}`;
+        const result = await chrome.storage.local.get(key);
+        if (result[key]) {
+            productStepsState.set(productId, result[key]);
+            return result[key];
+        }
+    } catch (error) {
+        console.warn('Erreur lors du chargement de l\'état des steps:', error);
+    }
+    
+    return { open: 'reset', translate: 'reset', validate: 'reset' };
+}
+
+// Restaurer l'état des steps pour un produit
+async function restoreProductStepsState(productId) {
+    const state = await loadProductStepsState(productId);
+    updateProcessStep('step-open', state.open || 'reset');
+    updateProcessStep('step-translate', state.translate || 'reset');
+    updateProcessStep('step-validate', state.validate || 'reset');
+}
+
+// Analyser l'état actuel du produit et mettre à jour les steps
+async function updateProductStepsState(productId) {
+    if (!productId) {
+        resetProcessProgress();
+        return;
+    }
+
+    const allTabs = await chrome.tabs.query({ currentWindow: true });
+    const productTabs = allTabs.filter(t => {
+        if (!t.url || !t.url.includes('basecat/pim/product.php')) return false;
+        const url = new URL(t.url);
+        return url.searchParams.get('id') === productId;
+    });
+
+    // Récupérer les langues cochées (langues cibles)
+    const checkedLangs = [];
+    document.querySelectorAll('.checkbox-item input[type="checkbox"]:checked').forEach(cb => {
+        checkedLangs.push(cb.value);
+    });
+
+    const langTabs = createEmptyLangTabs();
+    productTabs.forEach(tab => {
+        const url = new URL(tab.url);
+        const locData = url.searchParams.get('loc_data');
+        if (langTabs.hasOwnProperty(locData)) {
+            langTabs[locData] = tab;
+        }
+    });
+
+    // Étape 1 : Ouvrir les langues
+    // Completed si toutes les langues cochées sont ouvertes
+    const allCheckedLangsOpen = checkedLangs.length > 0 && 
+                                 checkedLangs.every(lang => langTabs[lang] !== undefined);
+    
+    // Étape 2 : Traduire
+    // On considère que c'est completed si les langues cibles sont ouvertes
+    // (on ne peut pas vraiment vérifier si elles sont traduites sans accéder au contenu)
+    const translateCompleted = allCheckedLangsOpen && checkedLangs.length > 0;
+    
+    // Étape 3 : Valider
+    // On ne peut pas vraiment déterminer si c'est validé sans vérifier le contenu
+    // On laisse cette étape à 'reset' ou 'active' selon le contexte
+    const validateCompleted = false; // À déterminer selon vos besoins
+
+    // Déterminer l'état actuel
+    let step1State = 'reset';
+    let step2State = 'reset';
+    let step3State = 'reset';
+
+    if (allCheckedLangsOpen) {
+        step1State = 'completed';
+        if (translateCompleted) {
+            step2State = 'completed';
+            step3State = 'reset'; // Prêt pour la validation
+        } else {
+            step2State = 'active';
+        }
+    } else if (checkedLangs.length > 0) {
+        // Des langues sont cochées mais pas toutes ouvertes
+        step1State = 'active';
+    }
+
+    // Sauvegarder et appliquer l'état
+    const stepsState = {
+        open: step1State,
+        translate: step2State,
+        validate: step3State
+    };
+    
+    saveProductStepsState(productId, stepsState);
+    updateProcessStep('step-open', step1State);
+    updateProcessStep('step-translate', step2State);
+    updateProcessStep('step-validate', step3State);
 }
 
 function getProductKey(productId, type) {
@@ -481,7 +602,15 @@ async function updatePagesStatus() {
             `✓ Prêt : ${sourceLangs.length} source(s), ${targetLangsCount} cible(s)`
         );
     }
+    
+    // Mettre à jour les steps du produit actuel
+    if (currentProductId) {
+        await updateProductStepsState(currentProductId);
+    }
 }
+
+// Variable pour suivre le produit actuel
+let currentProductId = null;
 
 async function updateCurrentPage() {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
@@ -492,6 +621,11 @@ async function updateCurrentPage() {
         langDisplay.textContent = 'Pas sur une page Basecat';
         langDisplayContainer.style.backgroundColor = '#fff3cd';
         langDisplayContainer.style.borderColor = '#ffc107';
+        // Réinitialiser les steps si on n'est plus sur un produit
+        if (currentProductId !== null) {
+            currentProductId = null;
+            resetProcessProgress();
+        }
         return;
     }
 
@@ -505,6 +639,15 @@ async function updateCurrentPage() {
     langDisplay.textContent = langText + productText;
     langDisplayContainer.style.backgroundColor = locData === 'fr_FR' ? '#e8d5ff' : '#fff3cd';
     langDisplayContainer.style.borderColor = locData === 'fr_FR' ? '#9C27B0' : '#ffc107';
+    
+    // Si on change de produit, mettre à jour les steps
+    if (productId && productId !== currentProductId) {
+        currentProductId = productId;
+        await updateProductStepsState(productId);
+    } else if (productId && productId === currentProductId) {
+        // Même produit, mais mettre à jour quand même (au cas où l'état aurait changé)
+        await updateProductStepsState(productId);
+    }
 }
 
 function getLangName(code) {
@@ -584,13 +727,18 @@ document.getElementById('openLanguagesBtn').addEventListener('click', async () =
     }
 
     try {
+        const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+        const currentUrl = new URL(tab.url);
+        const productId = currentUrl.searchParams.get('id');
+        
         // Réinitialiser la barre de progression au début d'un nouveau processus
         resetProcessProgress();
         // Mettre à jour la barre de progression - étape 1 active
-        updateProcessStep('step-open', 'active');
-        
-        const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-        const currentUrl = new URL(tab.url);
+        if (productId) {
+            updateProcessStep('step-open', 'active', productId);
+        } else {
+            updateProcessStep('step-open', 'active');
+        }
 
         for (const langCode of selectedLangs) {
             const newUrl = new URL(currentUrl.href);
@@ -599,14 +747,26 @@ document.getElementById('openLanguagesBtn').addEventListener('click', async () =
         }
 
         // Marquer l'étape 1 comme terminée
-        updateProcessStep('step-open', 'completed');
-        // Activer l'étape 2
-        updateProcessStep('step-translate', 'active');
+        if (productId) {
+            updateProcessStep('step-open', 'completed', productId);
+            // Activer l'étape 2
+            updateProcessStep('step-translate', 'active', productId);
+        } else {
+            updateProcessStep('step-open', 'completed');
+            updateProcessStep('step-translate', 'active');
+        }
 
         setTimeout(updatePagesStatus, 1000);
     } catch (error) {
         showStatus(document.getElementById('translateAllStatus'), 'error', 'Erreur: ' + error.message);
-        updateProcessStep('step-open', 'reset');
+        const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+        const currentUrl = new URL(tab.url);
+        const productId = currentUrl.searchParams.get('id');
+        if (productId) {
+            updateProcessStep('step-open', 'reset', productId);
+        } else {
+            updateProcessStep('step-open', 'reset');
+        }
     }
 });
 
@@ -625,11 +785,6 @@ document.getElementById('translateAllBtn').addEventListener('click', async () =>
             return;
         }
 
-        btn.disabled = true;
-        // Mettre à jour la barre de progression - étape 2 active
-        updateProcessStep('step-translate', 'active');
-        showStatus(statusDiv, 'info', 'Recherche des onglets à traduire...');
-
         const [currentTab] = await chrome.tabs.query({ active: true, currentWindow: true });
         if (!currentTab.url || !currentTab.url.includes('basecat/pim/product.php')) {
             showStatus(statusDiv, 'error', 'Vous devez être sur une page Basecat');
@@ -639,6 +794,15 @@ document.getElementById('translateAllBtn').addEventListener('click', async () =>
 
         const currentUrl = new URL(currentTab.url);
         const currentProductId = currentUrl.searchParams.get('id');
+        
+        btn.disabled = true;
+        // Mettre à jour la barre de progression - étape 2 active
+        if (currentProductId) {
+            updateProcessStep('step-translate', 'active', currentProductId);
+        } else {
+            updateProcessStep('step-translate', 'active');
+        }
+        showStatus(statusDiv, 'info', 'Recherche des onglets à traduire...');
 
         if (!currentProductId) {
             showStatus(statusDiv, 'error', 'ID produit introuvable');
@@ -774,8 +938,13 @@ document.getElementById('translateAllBtn').addEventListener('click', async () =>
         }
 
         // Marquer l'étape 2 comme terminée et activer l'étape 3
-        updateProcessStep('step-translate', 'completed');
-        updateProcessStep('step-validate', 'active');
+        if (currentProductId) {
+            updateProcessStep('step-translate', 'completed', currentProductId);
+            updateProcessStep('step-validate', 'active', currentProductId);
+        } else {
+            updateProcessStep('step-translate', 'completed');
+            updateProcessStep('step-validate', 'active');
+        }
 
         btn.disabled = false;
 
@@ -784,9 +953,10 @@ document.getElementById('translateAllBtn').addEventListener('click', async () =>
         btn.disabled = false;
         if (currentTranslationProduct) {
             removeProductProgressGroup(currentTranslationProduct, 'translation', 1000);
+            updateProcessStep('step-translate', 'reset', currentTranslationProduct);
+        } else {
+            updateProcessStep('step-translate', 'reset');
         }
-        // Réinitialiser l'étape 2 en cas d'erreur
-        updateProcessStep('step-translate', 'reset');
     }
 });
 
@@ -968,8 +1138,6 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
     const statusDiv = document.getElementById('validateStatus');
     const btn = document.getElementById('validateAllBtn');
 
-    // Mettre à jour la barre de progression - étape 3 active
-    updateProcessStep('step-validate', 'active');
     showStatus(statusDiv, 'info', 'Validation de toutes les pages...');
     btn.disabled = true;
 
@@ -977,6 +1145,13 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         const [currentTab] = await chrome.tabs.query({ active: true, currentWindow: true });
         const currentUrl = new URL(currentTab.url);
         const currentProductId = currentUrl.searchParams.get('id');
+        
+        // Mettre à jour la barre de progression - étape 3 active
+        if (currentProductId) {
+            updateProcessStep('step-validate', 'active', currentProductId);
+        } else {
+            updateProcessStep('step-validate', 'active');
+        }
         const currentLocData = currentUrl.searchParams.get('loc_data');
 
         if (!currentProductId) {
@@ -1025,7 +1200,11 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         if (filteredToValidate.length === 0) {
             showStatus(statusDiv, 'error', 'Aucune page à valider');
             btn.disabled = false;
-            updateProcessStep('step-validate', 'reset');
+            if (currentProductId) {
+                updateProcessStep('step-validate', 'reset', currentProductId);
+            } else {
+                updateProcessStep('step-validate', 'reset');
+            }
             return;
         }
 
@@ -1077,7 +1256,11 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         }
 
         // Marquer l'étape 3 comme terminée
-        updateProcessStep('step-validate', 'completed');
+        if (currentProductId) {
+            updateProcessStep('step-validate', 'completed', currentProductId);
+        } else {
+            updateProcessStep('step-validate', 'completed');
+        }
         btn.disabled = false;
         removeProductProgressGroup(currentProductId, 'validation', 3000);
 
@@ -1086,9 +1269,10 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         btn.disabled = false;
         if (currentValidationProduct) {
             removeProductProgressGroup(currentValidationProduct, 'validation', 1000);
+            updateProcessStep('step-validate', 'reset', currentValidationProduct);
+        } else {
+            updateProcessStep('step-validate', 'reset');
         }
-        // Réinitialiser l'étape 3 en cas d'erreur
-        updateProcessStep('step-validate', 'reset');
     }
 });
 
