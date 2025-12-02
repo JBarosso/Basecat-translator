@@ -896,6 +896,122 @@
             margin-right: 0;
         }
 
+        /* Barre de progression globale du processus */
+        .process-progress {
+            margin-bottom: 15px;
+        }
+
+        .process-progress-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .process-progress-title::before {
+            content: "📋";
+            margin-right: 8px;
+            font-size: 16px;
+        }
+
+        .process-steps {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            padding: 0 20px;
+        }
+
+        .process-steps::before {
+            content: '';
+            position: absolute;
+            top: 9px;
+            left: 20px;
+            right: 20px;
+            height: 3px;
+            background: #e0e0e0;
+            z-index: 0;
+        }
+
+        .process-step {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Connecteur entre les étapes - ligne de fond */
+        .process-step:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            top: 9px;
+            left: calc(50% + 20px);
+            width: calc(100% - 40px);
+            height: 3px;
+            background: #e0e0e0;
+            z-index: 0;
+            transition: background 0.3s ease;
+        }
+
+        .process-step.completed:not(:last-child)::after {
+            background: #10b981;
+        }
+
+        .process-step.active:not(:last-child)::after {
+            background: linear-gradient(to right, #10b981 0%, #2563eb 100%);
+        }
+
+        .process-step-circle {
+            width: 30px;
+            height: 16px;
+            border-radius: 4px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            color: #999;
+            transition: all 0.3s ease;
+            margin-bottom: 4px;
+            position: relative;
+        }
+
+        .process-step.active .process-step-circle {
+            border-color: #2563eb;
+            background: #2563eb;
+            color: white;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        .process-step.completed .process-step-circle {
+            border-color: #10b981;
+            background: #10b981;
+            color: white;
+        }
+
+        .process-step-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #666;
+            text-align: center;
+            max-width: 100px;
+            transition: color 0.3s ease;
+        }
+
+        .process-step.active .process-step-label {
+            color: #2563eb;
+        }
+
+        .process-step.completed .process-step-label {
+            color: #10b981;
+        }
+
         @media (max-width: 400px) {
             .stats-grid {
                 grid-template-columns: 1fr;
@@ -908,6 +1024,17 @@
             .lang-stat-count {
                 flex-basis: 100%;
                 margin: 4px 0 0 0;
+            }
+
+            .process-step-label {
+                font-size: 11px;
+                max-width: 80px;
+            }
+
+            .process-step-circle {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
             }
         }
     </style>
@@ -946,6 +1073,24 @@
     </div>
 
     <div class="info-section">
+        <!-- Barre de progression globale du processus -->
+        <div class="process-progress">
+            <div class="process-steps">
+                <div class="process-step" id="step-open">
+                    <div class="process-step-circle">1</div>
+                    <div class="process-step-label">Ouvrir les langues</div>
+                </div>
+                <div class="process-step" id="step-translate">
+                    <div class="process-step-circle">2</div>
+                    <div class="process-step-label">Traduire</div>
+                </div>
+                <div class="process-step" id="step-validate">
+                    <div class="process-step-circle">3</div>
+                    <div class="process-step-label">Valider</div>
+                </div>
+            </div>
+        </div>
+
         <!-- 0. Avancement du process -->
         <div class="section">
             <div class="section-title progress">Avancement du process</div>

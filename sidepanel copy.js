@@ -7,47 +7,76 @@ import { LANGUAGES, getLanguageByShortCode, getLanguageByCode, getLanguageName, 
 // Stocker les produits en cours
 const activeProducts = new Map();
 
-// ========================================
-// BARRE DE PROGRESSION GLOBALE DU PROCESSUS
-// ========================================
-
-function updateProcessStep(stepId, status) {
-    const step = document.getElementById(stepId);
-    if (!step) return;
-
-    // Retirer toutes les classes d'état
-    step.classList.remove('active', 'completed');
-
-    // Ajouter la classe appropriée
-    if (status === 'active') {
-        step.classList.add('active');
-        const circle = step.querySelector('.process-step-circle');
-        if (circle) {
-            circle.textContent = '⏳';
-        }
-    } else if (status === 'completed') {
-        step.classList.add('completed');
-        const circle = step.querySelector('.process-step-circle');
-        if (circle) {
-            circle.textContent = '✓';
-        }
-    } else if (status === 'reset') {
-        const circle = step.querySelector('.process-step-circle');
-        if (circle) {
-            const stepNum = stepId === 'step-open' ? '1' : stepId === 'step-translate' ? '2' : '3';
-            circle.textContent = stepNum;
-        }
-    }
-}
-
-function resetProcessProgress() {
-    updateProcessStep('step-open', 'reset');
-    updateProcessStep('step-translate', 'reset');
-    updateProcessStep('step-validate', 'reset');
-}
-
 function getProductKey(productId, type) {
     return `${productId}-${type}`;
+}
+
+// Fonction pour convertir HSL en RGB
+function hslToRgb(h, s, l) {
+    h /= 360;
+    s /= 100;
+    l /= 100;
+
+    let r, g, b;
+
+    if (s === 0) {
+        r = g = b = l; // achromatique
+    } else {
+        const hue2rgb = (p, q, t) => {
+            if (t < 0) t += 1;
+            if (t > 1) t -= 1;
+            if (t < 1/6) return p + (q - p) * 6 * t;
+            if (t < 1/2) return q;
+            if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+            return p;
+        };
+
+        const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+        const p = 2 * l - q;
+        r = hue2rgb(p, q, h + 1/3);
+        g = hue2rgb(p, q, h);
+        b = hue2rgb(p, q, h - 1/3);
+    }
+
+    return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
+}
+
+// Fonction pour calculer la luminosité relative perçue d'une couleur
+function getLuminance(r, g, b) {
+    // Formule de luminosité relative perçue (WCAG)
+    return (0.299 * r + 0.587 * g + 0.114 * b);
+}
+
+// Fonction pour déterminer la couleur du texte (noir ou blanc) selon le fond
+function getTextColorForBackground(color) {
+    // Extraire les valeurs HSL de la couleur
+    const hslMatch = color.match(/hsl\((\d+),\s*(\d+)%,\s*(\d+)%\)/);
+    if (!hslMatch) {
+        // Si ce n'est pas HSL, vérifier si c'est un hex
+        if (color.startsWith('#')) {
+            const hex = color.replace('#', '');
+            const r = parseInt(hex.substr(0, 2), 16);
+            const g = parseInt(hex.substr(2, 2), 16);
+            const b = parseInt(hex.substr(4, 2), 16);
+            const luminance = getLuminance(r, g, b);
+            return luminance > 128 ? '#000000' : '#FFFFFF';
+        }
+        // Sinon, retourner blanc par défaut
+        return '#FFFFFF';
+    }
+
+    const h = parseInt(hslMatch[1]);
+    const s = parseInt(hslMatch[2]);
+    const l = parseInt(hslMatch[3]);
+
+    // Convertir HSL en RGB
+    const [r, g, b] = hslToRgb(h, s, l);
+
+    // Calculer la luminosité
+    const luminance = getLuminance(r, g, b);
+
+    // Si la luminosité est supérieure à 128, utiliser du texte noir, sinon blanc
+    return luminance > 128 ? '#000000' : '#FFFFFF';
 }
 
 async function createProductProgressGroup(productId, languages, type = 'translation') {
@@ -78,11 +107,14 @@ async function createProductProgressGroup(productId, languages, type = 'translat
     productGroup.className = 'product-progress-group';
     productGroup.id = `product-${key}`;
 
+    // Calculer la couleur du texte selon la luminosité du fond
+    const textColor = getTextColorForBackground(productColor);
+    
     const header = document.createElement('div');
     header.className = 'product-progress-header';
     header.innerHTML = `
         <div class="product-progress-title">
-            <span class="product-progress-id" style="background: ${productColor};">${productId}</span>
+            <span class="product-progress-id" style="background: ${productColor}; color: ${textColor};">${productId}</span>
             <span class="product-progress-type">${type === 'translation' ? '🌐 Traduction' : '✅ Validation'}</span>
         </div>
     `;
@@ -204,7 +236,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     // Générer dynamiquement les checkboxes de langues
-    await generateLanguageCheckboxes();
+    generateLanguageCheckboxes();
 
     updateCurrentPage();
     updatePagesStatus();
@@ -212,46 +244,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     displayStats();
 });
 
-async function generateLanguageCheckboxes() {
+function generateLanguageCheckboxes() {
     const container = document.getElementById('languageCheckboxes');
     if (!container) return;
-
-    // Charger les préférences sauvegardées
-    const { selectedTargetLanguages } = await chrome.storage.sync.get('selectedTargetLanguages');
-    const savedLanguages = selectedTargetLanguages || [];
 
     container.innerHTML = '';
 
     LANGUAGES.forEach(lang => {
-        // Vérifier si la langue était sauvegardée comme cochée, sinon utiliser defaultChecked
-        const isChecked = savedLanguages.includes(lang.code) || 
-                         (savedLanguages.length === 0 && lang.defaultChecked);
-        
         const checkboxItem = document.createElement('div');
         checkboxItem.className = 'checkbox-item';
         checkboxItem.innerHTML = `
-            <input type="checkbox" id="lang-${lang.shortCode}" value="${lang.code}" ${isChecked ? 'checked' : ''}>
+            <input type="checkbox" id="lang-${lang.shortCode}" value="${lang.code}" ${lang.defaultChecked ? 'checked' : ''}>
             <label for="lang-${lang.shortCode}">${lang.flag} ${lang.shortCode.toUpperCase()}</label>
         `;
         container.appendChild(checkboxItem);
     });
-
-    // Ajouter des listeners pour sauvegarder les changements
-    container.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
-        checkbox.addEventListener('change', saveSelectedLanguages);
-    });
-}
-
-async function saveSelectedLanguages() {
-    const selectedLangs = [];
-    document.querySelectorAll('.checkbox-item input[type="checkbox"]:checked').forEach(cb => {
-        selectedLangs.push(cb.value);
-    });
-    
-    await chrome.storage.sync.set({ selectedTargetLanguages: selectedLangs });
-    
-    // Mettre à jour le statut des pages pour refléter les changements
-    updatePagesStatus();
 }
 
 // ========================================
@@ -584,29 +591,19 @@ document.getElementById('openLanguagesBtn').addEventListener('click', async () =
     }
 
     try {
-        // Réinitialiser la barre de progression au début d'un nouveau processus
-        resetProcessProgress();
-        // Mettre à jour la barre de progression - étape 1 active
-        updateProcessStep('step-open', 'active');
-        
         const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
         const currentUrl = new URL(tab.url);
 
         for (const langCode of selectedLangs) {
             const newUrl = new URL(currentUrl.href);
             newUrl.searchParams.set('loc_data', langCode);
+            newUrl.searchParams.set('ur', 'R');
             await chrome.tabs.create({ url: newUrl.href, active: false });
         }
-
-        // Marquer l'étape 1 comme terminée
-        updateProcessStep('step-open', 'completed');
-        // Activer l'étape 2
-        updateProcessStep('step-translate', 'active');
 
         setTimeout(updatePagesStatus, 1000);
     } catch (error) {
         showStatus(document.getElementById('translateAllStatus'), 'error', 'Erreur: ' + error.message);
-        updateProcessStep('step-open', 'reset');
     }
 });
 
@@ -626,8 +623,6 @@ document.getElementById('translateAllBtn').addEventListener('click', async () =>
         }
 
         btn.disabled = true;
-        // Mettre à jour la barre de progression - étape 2 active
-        updateProcessStep('step-translate', 'active');
         showStatus(statusDiv, 'info', 'Recherche des onglets à traduire...');
 
         const [currentTab] = await chrome.tabs.query({ active: true, currentWindow: true });
@@ -773,10 +768,6 @@ document.getElementById('translateAllBtn').addEventListener('click', async () =>
             showEmptyFieldsSection(allEmptyFields);
         }
 
-        // Marquer l'étape 2 comme terminée et activer l'étape 3
-        updateProcessStep('step-translate', 'completed');
-        updateProcessStep('step-validate', 'active');
-
         btn.disabled = false;
 
     } catch (error) {
@@ -785,8 +776,6 @@ document.getElementById('translateAllBtn').addEventListener('click', async () =>
         if (currentTranslationProduct) {
             removeProductProgressGroup(currentTranslationProduct, 'translation', 1000);
         }
-        // Réinitialiser l'étape 2 en cas d'erreur
-        updateProcessStep('step-translate', 'reset');
     }
 });
 
@@ -968,8 +957,6 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
     const statusDiv = document.getElementById('validateStatus');
     const btn = document.getElementById('validateAllBtn');
 
-    // Mettre à jour la barre de progression - étape 3 active
-    updateProcessStep('step-validate', 'active');
     showStatus(statusDiv, 'info', 'Validation de toutes les pages...');
     btn.disabled = true;
 
@@ -1015,17 +1002,12 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
             }
         });
 
-        // 🔧 TEST : Ligne 1019 - Commenter cette ligne pour EXCLURE la langue actuelle
-        // Décommenter pour exclure la langue de l'onglet actif (langue initiale) :
-        // const filteredToValidate = toValidate.filter(lang => lang.code !== currentLocData);
-        
-        // Par défaut : inclure toutes les langues (y compris la langue actuelle)
-        const filteredToValidate = toValidate;
+        // Exclure la langue de l'onglet actif (langue initiale)
+        const filteredToValidate = toValidate.filter(lang => lang.code !== currentLocData);
 
         if (filteredToValidate.length === 0) {
-            showStatus(statusDiv, 'error', 'Aucune page à valider');
+            showStatus(statusDiv, 'error', 'Aucune page à valider (toutes les langues sauf la langue initiale)');
             btn.disabled = false;
-            updateProcessStep('step-validate', 'reset');
             return;
         }
 
@@ -1076,8 +1058,6 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
             showStatus(statusDiv, 'error', 'Erreur lors des validations: ' + error.message);
         }
 
-        // Marquer l'étape 3 comme terminée
-        updateProcessStep('step-validate', 'completed');
         btn.disabled = false;
         removeProductProgressGroup(currentProductId, 'validation', 3000);
 
@@ -1087,8 +1067,6 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         if (currentValidationProduct) {
             removeProductProgressGroup(currentValidationProduct, 'validation', 1000);
         }
-        // Réinitialiser l'étape 3 en cas d'erreur
-        updateProcessStep('step-validate', 'reset');
     }
 });
 

@@ -7,8 +7,8 @@
     const locData = urlParams.get('loc_data');
     const productId = urlParams.get('id');
 
-    if (locData === 'fr_FR' && productId) {
-        console.log('📍 Page produit FR détectée, ID:', productId);
+    if (locData && productId) {
+        console.log('📍 Page produit détectée, ID:', productId, 'Langue:', locData);
 
         const initRedirect = () => {
             const searchButton = document.querySelector(`a[href="/basecat/pim/?query=${productId}"]`);
@@ -20,13 +20,14 @@
                     e.preventDefault();
                     e.stopPropagation();
 
-                    const searchUrl = `/basecat/pim/?query=${productId}&loc_data=fr_FR&loc=fr_FR`;
+                    // Utiliser loc_data de l'URL actuelle et toujours mettre loc=fr_FR
+                    const searchUrl = `/basecat/pim/?query=${productId}&loc_data=${locData}&loc=fr_FR`;
 
                     console.log('🎯 Redirection vers:', searchUrl);
                     window.location.href = searchUrl;
                 }, true); 
 
-                console.log('✅ Redirection FR configurée');
+                console.log(`✅ Redirection configurée pour la langue: ${locData}`);
             } else {
                 console.warn('⚠️ Bouton retour non trouvé');
             }

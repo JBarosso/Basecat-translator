@@ -283,3 +283,9 @@ L'extension utilise désormais un système de configuration centralisé pour gé
 4. Recharger l'extension
 
 Tous les autres fichiers s'adapteront automatiquement grâce au système de configuration centralisé.
+
+### Roadmap (suggestions)
+- [ ] Historique des traductions
+- [ ] Mode hors ligne avec cache
+- [ ] Prévisualisation avant injection
+- [ ] Rollback/annulation des traductions
