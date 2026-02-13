@@ -41,7 +41,7 @@ function updateProcessStep(stepId, status, productId = null) {
             circle.textContent = stepNum;
         }
     }
-    
+
     // Sauvegarder l'état si un productId est fourni
     if (productId) {
         const stepKey = stepId === 'step-open' ? 'open' : stepId === 'step-translate' ? 'translate' : 'validate';
@@ -69,7 +69,7 @@ async function loadProductStepsState(productId) {
     if (productStepsState.has(productId)) {
         return productStepsState.get(productId);
     }
-    
+
     try {
         const key = `productSteps_${productId}`;
         const result = await chrome.storage.local.get(key);
@@ -80,7 +80,7 @@ async function loadProductStepsState(productId) {
     } catch (error) {
         console.warn('Erreur lors du chargement de l\'état des steps:', error);
     }
-    
+
     return { open: 'reset', translate: 'reset', validate: 'reset' };
 }
 
@@ -123,14 +123,14 @@ async function updateProductStepsState(productId) {
 
     // Étape 1 : Ouvrir les langues
     // Completed si toutes les langues cochées sont ouvertes
-    const allCheckedLangsOpen = checkedLangs.length > 0 && 
-                                 checkedLangs.every(lang => langTabs[lang] !== undefined);
-    
+    const allCheckedLangsOpen = checkedLangs.length > 0 &&
+        checkedLangs.every(lang => langTabs[lang] !== undefined);
+
     // Étape 2 : Traduire
     // On considère que c'est completed si les langues cibles sont ouvertes
     // (on ne peut pas vraiment vérifier si elles sont traduites sans accéder au contenu)
     const translateCompleted = allCheckedLangsOpen && checkedLangs.length > 0;
-    
+
     // Étape 3 : Valider
     // On ne peut pas vraiment déterminer si c'est validé sans vérifier le contenu
     // On laisse cette étape à 'reset' ou 'active' selon le contexte
@@ -160,7 +160,7 @@ async function updateProductStepsState(productId) {
         translate: step2State,
         validate: step3State
     };
-    
+
     saveProductStepsState(productId, stepsState);
     updateProcessStep('step-open', step1State);
     updateProcessStep('step-translate', step2State);
@@ -345,9 +345,9 @@ async function generateLanguageCheckboxes() {
 
     LANGUAGES.forEach(lang => {
         // Vérifier si la langue était sauvegardée comme cochée, sinon utiliser defaultChecked
-        const isChecked = savedLanguages.includes(lang.code) || 
-                         (savedLanguages.length === 0 && lang.defaultChecked);
-        
+        const isChecked = savedLanguages.includes(lang.code) ||
+            (savedLanguages.length === 0 && lang.defaultChecked);
+
         const checkboxItem = document.createElement('div');
         checkboxItem.className = 'checkbox-item';
         checkboxItem.innerHTML = `
@@ -368,9 +368,9 @@ async function saveSelectedLanguages() {
     document.querySelectorAll('.checkbox-item input[type="checkbox"]:checked').forEach(cb => {
         selectedLangs.push(cb.value);
     });
-    
+
     await chrome.storage.sync.set({ selectedTargetLanguages: selectedLangs });
-    
+
     // Mettre à jour le statut des pages pour refléter les changements
     updatePagesStatus();
 }
@@ -559,13 +559,13 @@ async function updatePagesStatus() {
     const foundLangs = new Set(Object.keys(currentProduct));
 
     const allLangs = Array.from(foundLangs);
-    
+
     // Détecter la langue source (celle qui est différente des langues cibles sélectionnées)
     const checkedLangs = [];
     document.querySelectorAll('.checkbox-item input[type="checkbox"]:checked').forEach(cb => {
         checkedLangs.push(cb.value);
     });
-    
+
     // Les langues cibles sont celles qui sont cochées ET ouvertes
     const targetLangs = checkedLangs.filter(lang => foundLangs.has(lang));
     const targetLangsCount = targetLangs.length;
@@ -579,7 +579,7 @@ async function updatePagesStatus() {
     // Pour traduire, il faut au moins une langue source (non cochée) et une langue cible (cochée)
     const sourceLangs = allLangs.filter(lang => !checkedLangs.includes(lang));
     const hasSource = sourceLangs.length > 0;
-    
+
     translateAllBtn.disabled = !hasSource || targetLangsCount === 0;
     validateAllBtn.disabled = targetLangsCount === 0;
 
@@ -602,7 +602,7 @@ async function updatePagesStatus() {
             `✓ Prêt : ${sourceLangs.length} source(s), ${targetLangsCount} cible(s)`
         );
     }
-    
+
     // Mettre à jour les steps du produit actuel
     if (currentProductId) {
         await updateProductStepsState(currentProductId);
@@ -639,7 +639,7 @@ async function updateCurrentPage() {
     langDisplay.textContent = langText + productText;
     langDisplayContainer.style.backgroundColor = locData === 'fr_FR' ? '#e8d5ff' : '#fff3cd';
     langDisplayContainer.style.borderColor = locData === 'fr_FR' ? '#9C27B0' : '#ffc107';
-    
+
     // Si on change de produit, mettre à jour les steps
     if (productId && productId !== currentProductId) {
         currentProductId = productId;
@@ -730,7 +730,7 @@ document.getElementById('openLanguagesBtn').addEventListener('click', async () =
         const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
         const currentUrl = new URL(tab.url);
         const productId = currentUrl.searchParams.get('id');
-        
+
         // Réinitialiser la barre de progression au début d'un nouveau processus
         resetProcessProgress();
         // Mettre à jour la barre de progression - étape 1 active
@@ -794,7 +794,7 @@ document.getElementById('translateAllBtn').addEventListener('click', async () =>
 
         const currentUrl = new URL(currentTab.url);
         const currentProductId = currentUrl.searchParams.get('id');
-        
+
         btn.disabled = true;
         // Mettre à jour la barre de progression - étape 2 active
         if (currentProductId) {
@@ -1019,7 +1019,7 @@ document.getElementById('translateBtn').addEventListener('click', async () => {
             } else {
                 updateProductProgressBar(productId, locData, 'error', 'translation');
                 showStatus(statusDiv, 'error', 'Erreur: ' + response.error);
-                
+
                 // Supprimer la barre de progression après 2 secondes en cas d'erreur
                 removeProductProgressGroup(productId, 'translation', 2000);
             }
@@ -1112,11 +1112,19 @@ document.getElementById('validateCurrentBtn').addEventListener('click', async ()
         chrome.runtime.sendMessage({
             type: 'VALIDATE_CURRENT_PAGE',
             tabId: tab.id
-        }, (response) => {
+        }, async (response) => {
             if (response.success) {
                 updateProductProgressBar(productId, locData, 'completed', 'validation');
                 showStatus(statusDiv, 'success', '✅ Page validée avec succès');
                 removeProductProgressGroup(productId, 'validation', 2000);
+
+                // NOUVEAU : Vérification des statuts de validation (icones)
+                const validationStatus = await checkValidationStatus(tab.id, locData);
+
+                if (!validationStatus.isValid) {
+                    showStatus(statusDiv, 'warning', `⚠️ Validation incomplète (Photos ou Description non validées)`);
+                }
+
             } else {
                 updateProductProgressBar(productId, locData, 'error', 'validation');
                 showStatus(statusDiv, 'error', 'Erreur: ' + response.error);
@@ -1145,7 +1153,7 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         const [currentTab] = await chrome.tabs.query({ active: true, currentWindow: true });
         const currentUrl = new URL(currentTab.url);
         const currentProductId = currentUrl.searchParams.get('id');
-        
+
         // Mettre à jour la barre de progression - étape 3 active
         if (currentProductId) {
             updateProcessStep('step-validate', 'active', currentProductId);
@@ -1182,10 +1190,10 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         const toValidate = [];
         LANGUAGES.forEach(lang => {
             if (langTabs[lang.code]) {
-                toValidate.push({ 
-                    code: lang.code, 
-                    name: lang.name, 
-                    tab: langTabs[lang.code] 
+                toValidate.push({
+                    code: lang.code,
+                    name: lang.name,
+                    tab: langTabs[lang.code]
                 });
             }
         });
@@ -1193,7 +1201,7 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         // 🔧 TEST : Ligne 1019 - Commenter cette ligne pour EXCLURE la langue actuelle
         // Décommenter pour exclure la langue de l'onglet actif (langue initiale) :
         // const filteredToValidate = toValidate.filter(lang => lang.code !== currentLocData);
-        
+
         // Par défaut : inclure toutes les langues (y compris la langue actuelle)
         const filteredToValidate = toValidate;
 
@@ -1264,6 +1272,23 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         btn.disabled = false;
         removeProductProgressGroup(currentProductId, 'validation', 3000);
 
+        // NOUVEAU : Vérification des statuts de validation (icones)
+        const validationResults = await Promise.all(
+            filteredToValidate.map(lang => checkValidationStatus(lang.tab.id, lang.code))
+        );
+
+        // Filtrer pour ne garder que les échecs
+        const incompleteValidations = validationResults.filter(res => !res.isValid);
+
+        if (incompleteValidations.length > 0) {
+            // Afficher un résumé des problèmes
+            const invalidLangs = incompleteValidations.map(v => getFormattedLanguageName(v.lang)).join(', ');
+            showStatus(statusDiv, 'warning', `⚠️ Validation incomplète pour : ${invalidLangs}`);
+
+            // On pourrait aussi afficher des détails plus précis si besoin
+            console.warn('Validations incomplètes:', incompleteValidations);
+        }
+
     } catch (error) {
         showStatus(statusDiv, 'error', 'Erreur: ' + error.message);
         btn.disabled = false;
@@ -1275,6 +1300,36 @@ document.getElementById('validateAllBtn').addEventListener('click', async () => 
         }
     }
 });
+
+async function checkValidationStatus(tabId, langCode) {
+    try {
+        const [result] = await chrome.scripting.executeScript({
+            target: { tabId: tabId },
+            func: () => {
+                const photoIcon = document.querySelector('#photo_statusicon');
+                const descIcon = document.querySelector('#descriptif_statusicon');
+
+                const isPhotoValid = photoIcon && photoIcon.src && photoIcon.src.includes('checked.png');
+                const isDescValid = descIcon && descIcon.src && descIcon.src.includes('checked.png');
+
+                return {
+                    isPhotoValid,
+                    isDescValid
+                };
+            }
+        });
+
+        const { isPhotoValid, isDescValid } = result.result;
+        return {
+            lang: langCode,
+            isValid: isPhotoValid && isDescValid,
+            details: { photo: isPhotoValid, description: isDescValid }
+        };
+    } catch (error) {
+        console.error(`Erreur lors de la vérification du statut pour ${langCode}:`, error);
+        return { lang: langCode, isValid: false, error: error.message };
+    }
+}
 
 // ========================================
 // BOUTON: FERMER LES ONGLETS TRADUITS
@@ -1365,6 +1420,19 @@ document.querySelectorAll('.section-title').forEach(title => {
     });
 });
 
+// Initialiser le listener du bouton reset une seule fois
+document.getElementById('resetStatsBtn').addEventListener('click', async () => {
+    if (confirm('⚠️ Êtes-vous sûr de vouloir réinitialiser toutes les statistiques ?')) {
+        await chrome.storage.local.remove('translationStats');
+        displayStats();
+        showStatus(
+            document.getElementById('translateAllStatus'),
+            'success',
+            '✅ Statistiques réinitialisées'
+        );
+    }
+});
+
 async function displayStats() {
     const { translationStats } = await chrome.storage.local.get('translationStats');
     const statsContent = document.getElementById('statsContent');
@@ -1439,19 +1507,5 @@ async function displayStats() {
         <div class="stats-footer">
             <small>Dernière mise à jour: ${new Date(stats.lastUpdated).toLocaleString('fr-FR')}</small>
         </div>
-  
-        <button id="resetStatsBtn" class="btn-reset-stats">🗑️ Réinitialiser les statistiques</button>
     `;
-
-    document.getElementById('resetStatsBtn').addEventListener('click', async () => {
-        if (confirm('⚠️ Êtes-vous sûr de vouloir réinitialiser toutes les statistiques ?')) {
-            await chrome.storage.local.remove('translationStats');
-            displayStats();
-            showStatus(
-                document.getElementById('translateAllStatus'),
-                'success',
-                '✅ Statistiques réinitialisées'
-            );
-        }
-    });
 }
