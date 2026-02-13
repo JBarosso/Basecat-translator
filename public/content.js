@@ -1,0 +1,1 @@
+console.log('Basecat Translator: Content script chargé');

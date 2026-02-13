@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "Basecat Translator V2",
+  "version": "1.0",
+  "description": "Traduit automatiquement les produits Basecat dans plusieurs langues",
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://*.orchestra.cc/*",
+    "https://*.back.orchestra.cc/*",
+    "https://api.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://back.orchestra.cc/basecat/pim/product.php*"
+      ],
+      "js": [
+        "content.js",
+        "search-redirect.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "glossary_es.json",
+        "glossary_gr.json",
+        "glossary_fl.json",
+        "glossary_fr.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "action": {
+    "default_title": "Basecat Translator"
+  },
+  "icons": {
+    "16": "./icons/icon16.png",
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png"
+  }
+}
